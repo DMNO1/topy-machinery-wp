@@ -2,12 +2,154 @@
 Theme Name: TOP Y Machinery
 Theme URI: https://github.com/DMNO1/topy-machinery-wp
 Author: DMNO1
-Description: Custom WordPress theme for TOP Y Machinery - Food Packaging Machinery Manufacturer
-Version: 1.0.0
+Description: Custom WordPress theme for TOP Y Machinery - Food Packaging Machinery Manufacturer. A professional, modern theme designed for industrial machinery companies.
+Version: 1.1.0
 Requires at least: 5.0
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: topy
+Tags: food-packaging, machinery, industrial, manufacturing, custom-solutions, responsive
+
+TOP Y Machinery WordPress Theme - Matches https://www.topymachinery.com/
 */
+
+/* ============================================
+   WordPress Core Style Reset
+   ============================================ */
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption-text {
+    font-size: 14px;
+    color: #666;
+    padding: 8px 0;
+}
+
+.gallery-caption {
+    display: block;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+
+/* WordPress block editor styles */
+.entry-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.3;
+}
+
+.entry-content p {
+    margin-bottom: 1.2em;
+}
+
+.entry-content ul,
+.entry-content ol {
+    margin-bottom: 1.5em;
+    padding-left: 2em;
+}
+
+.entry-content blockquote {
+    border-left: 4px solid #0066cc;
+    padding: 10px 20px;
+    margin: 1.5em 0;
+    background: #f9f9f9;
+    font-style: italic;
+}
+
+.entry-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+.entry-content table th,
+.entry-content table td {
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+.entry-content table th {
+    background: #f5f5f5;
+    font-weight: 600;
+}
+
+/* Comments */
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment-body {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.comment-author {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.comment-metadata {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 10px;
+}
