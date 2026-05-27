@@ -3,7 +3,8 @@
     <div class="slider-container">
         <!-- Slide 1 -->
         <div class="slide active">
-            <div class="slide-bg" style="background-image: url('<?php echo TOPY_URI; ?>/assets/images/hero-vffs.jpg');"></div>
+            <div class="slide-bg" style="background: linear-gradient(135deg, #003366, #0066cc);"></div>
+            <div class="slide-overlay"></div>
             <div class="slide-content">
                 <h2>PROFESSIONAL MANUFACTURER IN VERTICAL MACHINE</h2>
                 <p>High-speed VFFS packaging solutions for food industry</p>
@@ -13,7 +14,8 @@
         
         <!-- Slide 2 -->
         <div class="slide">
-            <div class="slide-bg" style="background-image: url('<?php echo TOPY_URI; ?>/assets/images/hero-doypack.jpg');"></div>
+            <div class="slide-bg" style="background: linear-gradient(135deg, #004488, #0088dd);"></div>
+            <div class="slide-overlay"></div>
             <div class="slide-content">
                 <h2>Expert in Customized Food Packaging Machinery</h2>
                 <p>Tailored solutions for your unique packaging needs</p>
@@ -23,7 +25,8 @@
         
         <!-- Slide 3 -->
         <div class="slide">
-            <div class="slide-bg" style="background-image: url('<?php echo TOPY_URI; ?>/assets/images/hero-horizontal.jpg');"></div>
+            <div class="slide-bg" style="background: linear-gradient(135deg, #005599, #00aaff);"></div>
+            <div class="slide-overlay"></div>
             <div class="slide-content">
                 <h2>Intelligent Food Packaging Machinery Expert</h2>
                 <p>Smart automation for modern food production lines</p>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 160 100">
+  <defs>
+    <linearGradient id="bg-cube" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0055aa;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0055aa88;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="100" fill="url(#bg-cube)"/>
+  <g transform="translate(0,5)">
+    <rect x="50" y="40" width="40" height="40" rx="3" fill="rgba(255,255,255,0.2)" transform="rotate(-10 70 60)"/>
+    <rect x="55" y="35" width="40" height="40" rx="3" fill="rgba(255,255,255,0.3)"/>
+  </g>
+  <text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="rgba(255,255,255,0.7)">Block/Solid Packaging</text>
+</svg>

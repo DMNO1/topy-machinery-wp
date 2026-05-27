@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 160 100">
+  <defs>
+    <linearGradient id="bg-globe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#005599;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00559988;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="100" fill="url(#bg-globe)"/>
+  <g transform="translate(0,5)">
+    <circle cx="80" cy="58" r="28" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="3"/>
+    <ellipse cx="80" cy="58" rx="12" ry="28" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+    <line x1="52" y1="58" x2="108" y2="58" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  </g>
+  <text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="rgba(255,255,255,0.7)">Global Delivery</text>
+</svg>

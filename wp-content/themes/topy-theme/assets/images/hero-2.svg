@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 160 100">
+  <defs>
+    <linearGradient id="bg-box" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004488;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00448888;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="100" fill="url(#bg-box)"/>
+  <g transform="translate(0,5)">
+    <path d="M50 45 L80 30 L110 45 L110 80 L80 95 L50 80Z" fill="rgba(255,255,255,0.2)"/>
+    <line x1="80" y1="30" x2="80" y2="62" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <line x1="50" y1="45" x2="80" y2="62" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <line x1="110" y1="45" x2="80" y2="62" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  </g>
+  <text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="rgba(255,255,255,0.7)">Food Packaging Solutions</text>
+</svg>

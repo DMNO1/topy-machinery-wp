@@ -10,26 +10,27 @@ get_header();
 ?>
 
 <!-- Page Hero Banner -->
-<section class="page-hero" style="background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); padding: 80px 0; color: var(--white); text-align: center;">
+<section class="page-hero">
     <div class="container">
-        <h1 style="font-size: 42px; margin-bottom: 15px;"><?php the_title(); ?></h1>
-        <p style="font-size: 18px; max-width: 600px; margin: 0 auto;">TOP Y provides comprehensive food packaging machinery for all product types — granular, liquid, solid, and powder.</p>
+        <h1><?php the_title(); ?></h1>
+        <p>TOP Y provides comprehensive food packaging machinery for all product types — granular, liquid, solid, and powder.</p>
     </div>
 </section>
 
 <!-- Product Categories Section -->
-<section class="product-categories-section" style="padding: 80px 0;">
+<section class="product-categories-section">
     <div class="container">
-        <div class="section-header">
+        <div class="section-header reveal">
+            <span class="section-subtitle">Our Range</span>
             <h2>Our Product Categories</h2>
             <p>Explore our full range of intelligent food packaging machinery, categorized by product type.</p>
         </div>
 
         <div class="categories-grid">
             <!-- Granular -->
-            <div class="category-card">
+            <div class="category-card reveal delay-1">
                 <div class="category-image">
-                    <img src="<?php echo TOPY_URI; ?>/assets/images/cat-granular.jpg" alt="Granular Food Packaging Machines">
+                    <img src="<?php echo TOPY_URI; ?>/assets/images/cat-granular.svg" alt="Granular Food Packaging Machines" loading="lazy">
                 </div>
                 <div class="category-content">
                     <h3>Granular Food Packaging Machines</h3>
@@ -39,9 +40,9 @@ get_header();
             </div>
 
             <!-- Liquid/Sauce -->
-            <div class="category-card">
+            <div class="category-card reveal delay-2">
                 <div class="category-image">
-                    <img src="<?php echo TOPY_URI; ?>/assets/images/cat-liquid.jpg" alt="Liquid/Sauce Food Packaging Machines">
+                    <img src="<?php echo TOPY_URI; ?>/assets/images/cat-liquid.svg" alt="Liquid/Sauce Food Packaging Machines" loading="lazy">
                 </div>
                 <div class="category-content">
                     <h3>Liquid/Sauce Food Packaging Machines</h3>
@@ -51,9 +52,9 @@ get_header();
             </div>
 
             <!-- Block/Solid -->
-            <div class="category-card">
+            <div class="category-card reveal delay-3">
                 <div class="category-image">
-                    <img src="<?php echo TOPY_URI; ?>/assets/images/cat-solid.jpg" alt="Block/Solid Food Packaging Machines">
+                    <img src="<?php echo TOPY_URI; ?>/assets/images/cat-solid.svg" alt="Block/Solid Food Packaging Machines" loading="lazy">
                 </div>
                 <div class="category-content">
                     <h3>Block/Solid Food Packaging Machines</h3>
@@ -63,9 +64,9 @@ get_header();
             </div>
 
             <!-- Powder -->
-            <div class="category-card">
+            <div class="category-card reveal delay-4">
                 <div class="category-image">
-                    <img src="<?php echo TOPY_URI; ?>/assets/images/cat-powder.jpg" alt="Powder Food Packaging Machines">
+                    <img src="<?php echo TOPY_URI; ?>/assets/images/cat-powder.svg" alt="Powder Food Packaging Machines" loading="lazy">
                 </div>
                 <div class="category-content">
                     <h3>Powder Food Packaging Machines</h3>
@@ -78,9 +79,10 @@ get_header();
 </section>
 
 <!-- Machine Types Overview -->
-<section class="services-section" style="padding: 80px 0; background: var(--bg-light);">
+<section class="services-section">
     <div class="container">
-        <div class="section-header">
+        <div class="section-header reveal">
+            <span class="section-subtitle">Machine Types</span>
             <h2>Machine Types</h2>
             <p>We offer a complete lineup of packaging machinery types to meet every production requirement.</p>
         </div>
@@ -120,14 +122,14 @@ get_header();
 </section>
 
 <!-- CTA Section -->
-<section class="cta-section" style="padding: 80px 0; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); color: var(--white); text-align: center;">
+<section class="cta-section">
     <div class="container">
-        <div class="cta-content">
+        <div class="cta-content reveal">
             <h2>Need Help Choosing the Right Machine?</h2>
             <p>Our experts will recommend the best packaging solution for your food products.</p>
-            <div class="cta-buttons" style="margin-top: 30px;">
-                <a href="/contact" class="btn btn-secondary" style="background: transparent; color: var(--white); border: 2px solid var(--white); padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600;">Contact Our Experts</a>
-                <a href="/quote" class="btn btn-primary" style="background: var(--secondary-color); color: var(--white); padding: 12px 30px; border-radius: 4px; text-decoration: none; font-weight: 600; margin-left: 15px;">Get A Free Quote</a>
+            <div class="cta-buttons">
+                <a href="/contact" class="btn btn-secondary">Contact Our Experts</a>
+                <a href="/quote" class="btn btn-orange">Get A Free Quote</a>
             </div>
         </div>
     </div>

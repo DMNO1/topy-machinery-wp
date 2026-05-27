@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 160 100">
+  <defs>
+    <linearGradient id="bg-users" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004499;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00449988;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="100" fill="url(#bg-users)"/>
+  <g transform="translate(0,5)">
+    <circle cx="65" cy="45" r="12" fill="rgba(255,255,255,0.2)"/>
+    <path d="M45 75 Q45 60 65 60 Q85 60 85 75" fill="rgba(255,255,255,0.2)"/>
+    <circle cx="100" cy="45" r="12" fill="rgba(255,255,255,0.15)"/>
+    <path d="M80 75 Q80 60 100 60 Q120 60 120 75" fill="rgba(255,255,255,0.15)"/>
+  </g>
+  <text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="rgba(255,255,255,0.7)">Our Team</text>
+</svg>

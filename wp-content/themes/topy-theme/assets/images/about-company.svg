@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 160 100">
+  <defs>
+    <linearGradient id="bg-building" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#005588;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00558888;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="100" fill="url(#bg-building)"/>
+  <g transform="translate(0,5)">
+    <rect x="50" y="30" width="60" height="65" rx="3" fill="rgba(255,255,255,0.2)"/>
+    <rect x="58" y="38" width="10" height="10" fill="rgba(255,255,255,0.3)"/>
+    <rect x="75" y="38" width="10" height="10" fill="rgba(255,255,255,0.3)"/>
+    <rect x="58" y="55" width="10" height="10" fill="rgba(255,255,255,0.3)"/>
+    <rect x="75" y="55" width="10" height="10" fill="rgba(255,255,255,0.3)"/>
+    <rect x="70" y="75" width="20" height="20" fill="rgba(255,255,255,0.25)"/>
+  </g>
+  <text x="80" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="rgba(255,255,255,0.7)">About TOP Y</text>
+</svg>
