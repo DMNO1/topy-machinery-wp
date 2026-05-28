@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   db:
-    image: mysql:5.7
+    image: mysql:8.0
     container_name: topy-mysql
     restart: unless-stopped
     environment:
@@ -14,6 +14,7 @@ services:
       - db_data:/var/lib/mysql
     ports:
       - "3307:3306"
+    platform: linux/amd64
 
   wordpress:
     image: wordpress:latest
@@ -30,7 +31,7 @@ services:
       WORDPRESS_DB_PASSWORD: wp_pass123
     volumes:
       - wp_data:/var/www/html
-      - ./wp-content:/var/www/html/wp-content
+      - ../wp-content:/var/www/html/wp-content
 
 volumes:
   db_data:
